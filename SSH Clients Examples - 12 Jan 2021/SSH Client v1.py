@@ -15,5 +15,8 @@ ssh_connect = ConnectHandler(**connection)
 if ssh_connect:  # Check if ssh successful
     print("Success!")
 
-output = ssh_connect.send_command("show version")
-print(output)
+# output = ssh_connect.send_command("show version")
+# print(output)
+print(ssh_connect.send_command("show version"))
+
+
