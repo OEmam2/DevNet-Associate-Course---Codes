@@ -35,3 +35,7 @@ for devices in devices_list:
     for command in commands_list:
         output = net_connect.send_command(command.strip())
         print(output)
+
+
+        for ip in devices_list
+            ipx=('devices_list'+1)
